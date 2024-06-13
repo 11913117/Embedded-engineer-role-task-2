@@ -10,24 +10,24 @@ This script monitors and reports the system's health status by collecting CPU us
 
 To start monitoring, run:
 
-sudo ./health_monitor.sh start
+**sudo ./health_monitor.sh start**
 
 ### Stopping the Monitoring
 To stop monitoring, run:
 
-sudo ./health_monitor.sh stop
+**sudo ./health_monitor.sh stop**
 
 ### Checking Monitoring Status
 To check if the monitoring is running, run:
 
-sudo ./health_monitor.sh status
+**sudo ./health_monitor.sh status**
 
 ### Configuration
 You can configure the threshold values for CPU, memory, and disk usage by editing the script and changing the values of CPU_THRESHOLD, MEM_THRESHOLD, and DISK_THRESHOLD variables.
 
-CPU_THRESHOLD=80
+**CPU_THRESHOLD=80
 MEM_THRESHOLD=80
-DISK_THRESHOLD=80
+DISK_THRESHOLD=80**
 
 ### Log File
 The script logs the system health status to /var/log/system_health.log.
